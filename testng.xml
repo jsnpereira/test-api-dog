@@ -1,0 +1,7 @@
+<suite name="Test API dog">
+    <test name="test suite">
+        <classes>
+            <class name="TestDogAPI" />
+        </classes>
+    </test>
+</suite>
