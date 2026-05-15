@@ -1,5 +1,8 @@
 <suite name="Test API dog">
     <test name="test suite">
+        <listeners>
+            <listener  class-name="reports.TestListener"/>
+        </listeners>
         <classes>
             <class name="TestDogAPI" />
         </classes>

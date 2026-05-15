@@ -1,13 +1,15 @@
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import org.testng.ITestListener;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;
 
-public class TestDogAPI{
+public class TestDogAPI {
+
 
     @BeforeClass
     public void setup(){
